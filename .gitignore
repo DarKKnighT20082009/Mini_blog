@@ -15,4 +15,4 @@ venv
 .idea/vcs.xml
 .idea/jsLibraryMappings.xml
 
-db.sqlite3
+new_db.sqlite3
