@@ -36,7 +36,7 @@
                         <div class="blog-img">
                             <div class="date">{{ blog.created_at.day }} {{ blog.created_at.date|date:'F' }}</div>
                             <a href="{% url 'blog_detail' slug=blog.slug %}">
-                                <img src="{{ blog.image }}" title="" alt="" style="width: 350px; height: 280px">
+                                <img src="{{ blog.image.url }}" href="{% url 'blog_detail' slug=blog.slug %}" title="" alt="" style="width: 350px; height: 280px">
                             </a>
                         </div>
                         <div class="blog-info">
